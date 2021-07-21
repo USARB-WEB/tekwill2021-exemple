@@ -39,3 +39,20 @@
     border-style: ridge;
 }
 
+
+.borderTopStyle{
+    border-top-style: solid;
+}
+
+.borderPairWidth{
+    border-width: 10px 20px;
+    border-color: red;
+    border-style: solid;
+}
+
+
+.borderSides{
+    border-width: 5px 10px 15px 20px;
+    border-color: red;
+    border-style: solid;
+}
