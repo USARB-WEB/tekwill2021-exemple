@@ -1,0 +1,41 @@
+.square{
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    margin: 5px;
+    background-color: lightyellow;
+    border-width: 5px;
+}
+
+.borderSolid{
+    border-style: solid;
+}
+
+.borderDotted{
+    border-style: dotted;
+}
+
+.borderDashed{
+    border-style: dashed;
+}
+
+.borderDouble{
+    border-style: double;
+}
+
+.borderInset{
+    border-style: inset;
+}
+
+.borderOutset{
+    border-style: outset;
+}
+
+.borderGroove{
+    border-style: groove;
+}
+
+.borderRidge{
+    border-style: ridge;
+}
+
