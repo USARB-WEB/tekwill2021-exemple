@@ -24,3 +24,28 @@
     background: red;
     z-index: 1;
 }
+
+.modal{
+    width: 300px;
+    height: 200px;
+    border: 3px solid blueviolet;
+    border-radius: 10px;
+    background: cornflowerblue;
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    top: calc(50% - 150px);
+    left: calc(50% - 100px);
+}
+
+.shadow{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 9998;
+    background: black;
+    opacity: 0.6;
+
+}
