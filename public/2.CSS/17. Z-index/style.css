@@ -47,5 +47,16 @@
     z-index: 9998;
     background: black;
     opacity: 0.6;
+}
 
+#chat{
+    background: green;
+    border: 1px solid gray;
+    color: white;
+    width: 200px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: 9999;
+    padding: 15px;
 }
