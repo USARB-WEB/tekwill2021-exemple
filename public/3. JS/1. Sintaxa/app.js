@@ -30,3 +30,5 @@ number = () => {};
 console.log(typeof number);
 number = [1, 3];
 console.log(typeof number);
+
+console.log((5.12345).toFixed(2));
