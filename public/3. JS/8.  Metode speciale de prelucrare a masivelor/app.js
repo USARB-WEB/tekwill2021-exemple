@@ -56,3 +56,15 @@ console.log("Suma elementelor este", suma);
 
 console.log("Calcularea sumei elementelor din masiv. reduce");
 console.log("Suma elementelor este", numere.reduce((accumulator, value) => accumulator + value, 0));
+
+
+console.log("Completarea masivului cu numere aleatorii");
+
+const numbers = [];
+for (let index = 0; index < 200; index++) {
+    numbers.push(Math.round(Math.random() * 100)   );
+    
+}
+
+console.log(Math.random());
+console.log(numbers);
