@@ -12,15 +12,6 @@ const app = new Vue({
             return "red";
          }
          return "yellow";
-       },
-       alertType(){
-         if(this.number > 0){
-            return "green";
-         }
-         if(this.number < 0){
-           return "red";
-        }
-        return "yellow";
-      }
+       }
     }
 });
